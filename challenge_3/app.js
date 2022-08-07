@@ -45,7 +45,7 @@ function onLineWidthChange(event) {
 }
 
 function onFontSizeChange(event) {
-  fontSize = event.target.value;
+  fontSize.value = event.target.value;
 }
 
 function onColorChange(event) {
